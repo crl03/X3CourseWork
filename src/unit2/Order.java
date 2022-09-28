@@ -18,7 +18,7 @@ public class Order {
         ArrayList<Object> order = new ArrayList<>() {
             @Override
             public String toString() {
-                String orderReceipt = "";
+                String orderReceipt = "Receipt\n";
                 for (int i = 0; i < this.size(); i++) {
                     if (i < 2) {
                         orderReceipt += this.get(i).toString() + "\n";
@@ -101,7 +101,7 @@ public class Order {
                 continueOrder = input.nextLine();
                 if (continueOrder.equalsIgnoreCase("N")) {
                     System.out.println(order);
-                    System.out.println("Your order total is: $" + orderTotal);
+                    System.out.println("Your order total is: $" + orderTotal + "\nHave a nice day!");
                     ordering = false;
                 }
             }
