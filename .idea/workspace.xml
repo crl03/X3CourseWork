@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e77456b7-48da-4848-a6e9-a43b9d74e51d" name="Changes" comment="First commit." />
+    <list default="true" id="e77456b7-48da-4848-a6e9-a43b9d74e51d" name="Changes" comment="Moved coursework from separate projects.  MarsWeek to unit1 and CupcakeWeek to unit2.">
+      <change afterPath="$PROJECT_DIR$/src/unit1/FindingsLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit1/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit1/Mars.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit1/MarsExpedition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Chocolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Cupcake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Drink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Milk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/RedVelvet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/unit2/Soda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/unit2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unit2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +31,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2FPPM1Uz6eQfENnZ2edrxR0roUB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,9 +44,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/cloja/IdeaProjects/X3CourseWork/src/unit2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cloja\IdeaProjects\X3CourseWork\src\unit2" />
+      <recent name="C:\Users\cloja\IdeaProjects\X3CourseWork\src\unit1" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664391683225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Had to rename Unit2 to unit2.">
+      <created>1664391874240</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664391874240</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -62,6 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit." />
+    <MESSAGE value="Had to rename Unit2 to unit2." />
+    <MESSAGE value="Moved coursework from separate projects.  MarsWeek to unit1 and CupcakeWeek to unit2." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved coursework from separate projects.  MarsWeek to unit1 and CupcakeWeek to unit2." />
   </component>
 </project>
