@@ -61,50 +61,47 @@ public class Order {
                     case 1:
                         order.add(cupcakeMenu.get(0));
                         cupcakeMenu.get(0).type();
-                        System.out.println("Coming up!");
                         orderTotal += cupcakeMenu.get(0).getPrice();
                         break;
                     case 2:
                         order.add(cupcakeMenu.get(1));
                         cupcakeMenu.get(1).type();
-                        System.out.println("Coming up!");
                         orderTotal += cupcakeMenu.get(1).getPrice();
                         break;
                     case 3:
                         order.add(cupcakeMenu.get(2));
                         cupcakeMenu.get(2).type();
-                        System.out.println("Coming up!");
                         orderTotal += cupcakeMenu.get(2).getPrice();
                         break;
                     case 4:
                         order.add(drinkMenu.get(0));
                         drinkMenu.get(0).type();
-                        System.out.println("Coming up!");
                         orderTotal += drinkMenu.get(0).getPrice();
                         break;
                     case 5:
                         order.add(drinkMenu.get(1));
                         drinkMenu.get(1).type();
-                        System.out.println("Coming up!");
                         orderTotal += drinkMenu.get(1).getPrice();
                         break;
                     case 6:
                         order.add(drinkMenu.get(2));
                         drinkMenu.get(2).type();
-                        System.out.println("Coming up!");
                         orderTotal += drinkMenu.get(2).getPrice();
                         break;
                     default:
                         System.out.println("Sorry that's not on the menu.");
                 }
+                System.out.println("Coming up!\n\t\t\t\t\t\t\t\t" + "Sub Total: " + orderTotal);
                 System.out.println("Would you like another item? (Y or N)");
                 continueOrder = input.nextLine();
                 if (continueOrder.equalsIgnoreCase("N")) {
                     System.out.println(order);
-                    System.out.println("Your order total is: $" + orderTotal + "\nHave a nice day!");
+                    System.out.println("Your order total is: $" + orderTotal + "\nHave a nice day!\n\n");
                     ordering = false;
                 }
             }
+            new CreateFile();
+            new WriteToFile(order, orderTotal);
 
         } else {
             System.out.println("Have a nice day!");

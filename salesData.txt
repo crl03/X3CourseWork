@@ -1,0 +1,19 @@
+2022-09-29
+13:06:25.106639700
+Red Velvet		Price: 6.99
+
+Pint of Milk	Price: 2.99
+
+Vanilla Cupcake	Price: 4.99
+
+Bottled Water	Price: 1.99
+
+2022-09-29
+13:13:04.990293700
+Chocolate		Price: 5.99
+
+Soda Can		Price: 0.99
+
+Vanilla Cupcake	Price: 4.99
+
+11.97
