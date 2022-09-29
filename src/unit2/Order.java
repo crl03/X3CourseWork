@@ -3,6 +3,7 @@ package unit2;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Order {
@@ -48,14 +49,25 @@ public class Order {
             }
 
             boolean ordering = true;
-            int orderChoice;
+            boolean validOrder = true;
+            int orderChoice = 0;
             double orderTotal = 0;
             String continueOrder;
 
             while (ordering) {
                 System.out.println("What would you like to order?  Please use associated Numbers.");
-                orderChoice = input.nextInt();
-                input.nextLine();
+
+                do {
+                    try {
+                        orderChoice = input.nextInt();
+                        input.nextLine();
+                            validOrder = true;
+                    } catch (InputMismatchException e) {
+                        System.out.println("Please input valid number.");
+                        input.nextLine();
+                        validOrder = false;
+                    }
+                } while (!validOrder);
 
                 switch (orderChoice){
                     case 1:
@@ -91,7 +103,7 @@ public class Order {
                     default:
                         System.out.println("Sorry that's not on the menu.");
                 }
-                System.out.println("Coming up!\n\t\t\t\t\t\t\t\t" + "Sub Total: " + orderTotal);
+                System.out.println("\t\t\t\t\t\t\t\t\t" + "Sub Total: " + orderTotal);
                 System.out.println("Would you like another item? (Y or N)");
                 continueOrder = input.nextLine();
                 if (continueOrder.equalsIgnoreCase("N")) {

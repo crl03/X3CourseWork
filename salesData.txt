@@ -37,3 +37,25 @@ Chocolate		Price: 5.99
 Bottled Water	Price: 1.99
 Total: 7.98
 
+2022-09-29
+13:33:14.721815300
+Vanilla Cupcake	Price: 4.99
+Chocolate		Price: 5.99
+Soda Can		Price: 0.99
+Pint of Milk	Price: 2.99
+Total: 14.96
+
+2022-09-29
+13:34:25.927051
+Vanilla Cupcake	Price: 4.99
+Red Velvet		Price: 6.99
+Pint of Milk	Price: 2.99
+Total: 14.97
+
+2022-09-29
+13:51:22.890563400
+Bottled Water	Price: 1.99
+Red Velvet		Price: 6.99
+Vanilla Cupcake	Price: 4.99
+Total: 13.97
+
