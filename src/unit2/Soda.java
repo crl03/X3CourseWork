@@ -10,6 +10,6 @@ public class Soda extends Drink {
 
     @Override
     public String toString() {
-        return "Soda Can\t\tPrice: " + this.getPrice() + "\n";
+        return "Soda Can\t\tPrice: " + this.getPrice();
     }
 }

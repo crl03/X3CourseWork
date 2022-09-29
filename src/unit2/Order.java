@@ -38,13 +38,13 @@ public class Order {
             int itemNumber = 0;
             for (int i = 0; i < cupcakeMenu.size(); i++) {
                 itemNumber++;
-                System.out.printf("Number:\t%d\t%s", itemNumber, cupcakeMenu.get(i));
+                System.out.printf("Number:\t%d\t%s\n", itemNumber, cupcakeMenu.get(i));
             }
 
             System.out.println("DRINKS");
             for (int i = 0; i < drinkMenu.size(); i++) {
                 itemNumber++;
-                System.out.printf("Number:\t%d\t%s", itemNumber, drinkMenu.get(i));
+                System.out.printf("Number:\t%d\t%s\n", itemNumber, drinkMenu.get(i));
             }
 
             boolean ordering = true;
@@ -95,7 +95,9 @@ public class Order {
                 System.out.println("Would you like another item? (Y or N)");
                 continueOrder = input.nextLine();
                 if (continueOrder.equalsIgnoreCase("N")) {
-                    System.out.println(order);
+                    for (Object item: order) {
+                        System.out.println(item);
+                    }
                     System.out.println("Your order total is: $" + orderTotal + "\nHave a nice day!\n\n");
                     ordering = false;
                 }

@@ -18,6 +18,6 @@ public class Cupcake {
 
     @Override
     public String toString() {
-        return "Vanilla Cupcake\tPrice: " + this.getPrice() + "\n";
+        return "Vanilla Cupcake\tPrice: " + this.getPrice();
     }
 }

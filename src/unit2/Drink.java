@@ -17,6 +17,6 @@ public class Drink {
 
     @Override
     public String toString() {
-        return "Bottled Water\tPrice: " + this.getPrice() + "\n";
+        return "Bottled Water\tPrice: " + this.getPrice();
     }
 }

@@ -9,6 +9,6 @@ public class Milk extends Drink {
 
     @Override
     public String toString() {
-        return "Pint of Milk\tPrice: " + this.getPrice() + "\n";
+        return "Pint of Milk\tPrice: " + this.getPrice();
     }
 }

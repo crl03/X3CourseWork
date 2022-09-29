@@ -8,6 +8,6 @@ public class Chocolate extends Cupcake {
 
     @Override
     public String toString() {
-        return "Chocolate\t\tPrice: " + this.getPrice() + "\n";
+        return "Chocolate\t\tPrice: " + this.getPrice();
     }
 }

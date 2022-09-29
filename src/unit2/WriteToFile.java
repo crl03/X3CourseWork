@@ -18,10 +18,10 @@ public class WriteToFile {
             PrintWriter salesWriter = new PrintWriter(fw);
 
             for (int i = 0; i < order.size(); i++) {
-                System.out.println("Writing :" + order.get(i));
+                System.out.println("Writing:\t" + order.get(i));
                 salesWriter.println(order.get(i));
             }
-            salesWriter.println("Total: "+ orderTotal);
+            salesWriter.println("Total: " + orderTotal + "\n");
             salesWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
